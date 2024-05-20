@@ -1,0 +1,35 @@
+<resources>
+
+    <style name="SafeletApp.AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <!-- Application theme. -->
+    <style name="SafeletApp.AppTheme" parent="SafeletApp.AppBaseTheme">
+        <item name="android:activatedBackgroundIndicator">?android:attr/selectableItemBackground
+        </item>
+    </style>
+
+    <!-- New App Theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="cbCreateAccount" parent="AppTheme">
+        <!-- Checked color -->
+        <item name="colorAccent">@color/colorPrimary</item>
+        <!-- Checkbox border color -->
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+    </style>
+
+    <style name="CustomAlertDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <!-- Customize the title text color -->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <!-- Customize the title background color -->
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+</resources>

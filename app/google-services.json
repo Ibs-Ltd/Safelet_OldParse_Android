@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "32926216083",
+    "firebase_url": "https://safelet-1194.firebaseio.com",
+    "project_id": "safelet-1194",
+    "storage_bucket": "safelet-1194.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32926216083:android:7d26be3937c1e640",
+        "android_client_info": {
+          "package_name": "com.safelet.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32926216083-l3r80773j9lj4eo41edrv6d8e6g6il4k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.safelet.android",
+            "certificate_hash": "8866abb8c995b8c55f5abbe6fa308e1bfb8783fe"
+          }
+        },
+        {
+          "client_id": "32926216083-vput91ic4kabfe8adrf0aegga6dh76p9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCBruIz2wgEfO63dzNBK2etKu-q__hMa0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32926216083-vput91ic4kabfe8adrf0aegga6dh76p9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

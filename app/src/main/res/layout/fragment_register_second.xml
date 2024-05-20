@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingPrefix">
+
+    <ImageView
+        android:id="@+id/background_wings"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:alpha="1.0"
+        android:src="@drawable/vlinder_background_10p" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/register_title_tv"
+                fontPath="fonts/SourceSansPro-ExtraLight.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/signup_second_title"
+                android:textColor="@color/gray_text"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/register_title_tv"
+                android:orientation="vertical">
+
+                <TextView
+                    fontPath="fonts/SourceSansPro-Regular.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/signup_second_accurateinformationrequiredlabel"
+                    android:textColor="@color/gray_input_color_text" />
+
+                <EditText
+                    android:id="@+id/register_name_et"
+                    fontPath="fonts/SourceSansPro-Regular.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/input_box"
+                    android:ems="10"
+                    android:hint="@string/signup_second_hint_name"
+                    android:inputType="textCapSentences"
+                    android:padding="10dp"
+                    android:textColorHint="@color/gray_input_color_hint" />
+
+                <TextView
+                    android:id="@+id/register_name_alert_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:padding="10dp"
+                    android:text="@string/signup_second_error_namemissing"
+                    android:textColor="@color/red_alert_text" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/register_prefix_rl"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/input_box_small"
+                        android:clickable="true"
+                        android:descendantFocusability="beforeDescendants">
+
+                        <TextView
+                            android:id="@+id/register_prefix_et"
+                            android:layout_width="70dp"
+                            android:layout_height="45dp"
+                            android:gravity="center_vertical"
+                            android:padding="10dp"
+                            android:textColor="@color/gray_input_color_text"
+                            android:textSize="16sp">
+
+                        </TextView>
+                    </RelativeLayout>
+
+
+                    <EditText
+                        android:id="@+id/register_phone_et"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/input_box"
+                        android:ems="10"
+                        android:hint="@string/signup_second_hint_telephonenumber"
+                        android:inputType="number"
+                        android:padding="10dp"
+                        android:textColor="@color/gray_input_color_text"
+                        android:textColorHint="@color/gray_input_color_hint">
+
+                    </EditText>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/register_phone_alert_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:padding="10dp"
+                    android:text="@string/signup_second_error_phonemissing"
+                    android:textColor="@color/red_alert_text" />
+
+                <TextView
+                    android:id="@+id/register_prefix_alert_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:padding="10dp"
+                    android:text="@string/signup_second_error_prefixmissing"
+                    android:textColor="@color/red_alert_text" />
+
+                <RelativeLayout
+                    android:id="@+id/register_upload_rl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/register_upload_iv"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/generic_icon" />
+
+                    <TextView
+                        android:id="@+id/register_upload_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/register_upload_iv"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/signup_second_uploadpicture_label"
+                        android:textColor="@color/safelet_red" />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/register_next_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/selector_button_safelet_red"
+                    android:text="@string/signup_second_next"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/register_back_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/icon_back"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        android:text="@string/signup_second_back"
+        android:textColor="@color/gray_text_login"
+        android:textSize="16sp" />
+
+</RelativeLayout>

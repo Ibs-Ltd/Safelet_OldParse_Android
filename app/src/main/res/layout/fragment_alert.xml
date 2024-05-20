@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sliding_panel_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    app:umanoAnchorPoint="0.35"
+    app:umanoFadeColor="@android:color/transparent"
+    app:umanoInitialState="collapsed"
+    app:umanoOverlay="true"
+    app:umanoPanelHeight="112dp"
+    app:umanoScrollableView="@id/messages_list"
+    app:umanoShadowHeight="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <com.safelet.android.views.AlarmView
+            android:id="@+id/globalAlertPopView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/map_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/globalAlertPopView" />
+
+        <include
+            android:id="@+id/location_progress"
+            layout="@layout/acquiring_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/my_alarm_bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/disable_alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_green_background"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/alert_disable_alertlabel"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/on_my_way_bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal"
+            android:paddingStart="8dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/play_sound"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_blue_background"
+                android:text="@string/play_audio"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+            <Space
+                android:layout_width="4dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/on_my_way_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_green_background"
+                android:text="@string/alert_screen_button_onmyway"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+            <Space
+                android:layout_width="4dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/call_emergency"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_orange_background"
+                android:text="@string/call_emergency"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/material_layout_keylines_screen_edge_margin"
+            android:paddingLeft="@dimen/material_layout_keylines_screen_edge_margin"
+            android:paddingTop="4dp"
+            android:paddingEnd="@dimen/material_layout_keylines_screen_edge_margin"
+            android:paddingRight="@dimen/material_layout_keylines_screen_edge_margin"
+            android:paddingBottom="4dp">
+
+            <EditText
+                android:id="@+id/editor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/material_layout_keylines_screen_edge_margin"
+                android:layout_marginRight="@dimen/material_layout_keylines_screen_edge_margin"
+                android:layout_weight="1"
+                tools:ignore="Autofill,LabelFor,RtlHardcoded,TextFields" />
+
+            <ImageButton
+                android:id="@+id/send"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="?selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_send"
+                app:tint="@color/tint_selector"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/messages_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" />
+
+    </LinearLayout>
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

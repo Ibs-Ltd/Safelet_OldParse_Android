@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.safelet.android.views.NotificationPopUpNetworkErrorView
+        android:id="@+id/notificationPopUpNetworkErrorView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/change_email_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/globalAlertPopView"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/change_email_et"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/input_box"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/gray_input_color_text"
+            android:textColorHint="@color/gray_input_color_hint" />
+
+        <TextView
+            android:id="@+id/change_email_alert_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:text=""
+            android:textColor="@color/red_alert_text" />
+
+        <Button
+            android:id="@+id/change_email_confirm_btn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button_safelet_red"
+            android:text="@string/change_email_button_change"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/View1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/change_email_ll" />
+
+</RelativeLayout>

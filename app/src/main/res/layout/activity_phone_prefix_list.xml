@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+
+    <include
+        android:id="@+id/safelet_toolbar"
+        layout="@layout/safelet_toolbar" />
+
+    <include
+        layout="@layout/phone_prefix_list_alf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/safelet_toolbar"
+        android:layout_gravity="end" />
+</RelativeLayout>

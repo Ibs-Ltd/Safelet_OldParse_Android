@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.safelet.android.views.NotificationPopUpNetworkErrorView
+        android:id="@+id/notificationPopUpNetworkErrorView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/change_phone_prefix_rl"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_box_small"
+                android:clickable="true"
+                android:descendantFocusability="beforeDescendants">
+
+                <TextView
+                    android:id="@+id/change_phone_prefix_et"
+                    android:layout_width="70dp"
+                    android:layout_height="45dp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="@string/change_phone_prefix"
+                    android:textColor="@color/gray_input_color_text"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/change_phone_phone_et"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/input_box"
+                android:ems="10"
+                android:hint="@string/change_phone_hint_telephone"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColor="@color/gray_input_color_text"
+                android:textColorHint="@color/gray_input_color_hint" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/change_phone_phone_alert_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:text="@string/change_phone_error_phonemissing"
+            android:textColor="@color/red_alert_text" />
+
+        <TextView
+            android:id="@+id/change_phone_prefix_alert_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:text="@string/change_phone_error_prefixmissing"
+            android:textColor="@color/red_alert_text" />
+
+        <Button
+            android:id="@+id/change_phone_confirm_btn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button_safelet_red"
+            android:text="@string/change_phone_submitbutton"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="colorPrimary">#c90c10</color>
+    <color name="colorPrimaryDark">#A3090C</color>
+    <color name="colorAccent">@android:color/white</color>
+
+    <color name="white">#ffffff</color>
+    <color name="gray_text">#83878f</color>
+    <color name="gray_input_color_hint">#a7aab0</color>
+    <color name="gray_text_login">#7f838a</color>
+    <color name="red_alert_text">#a6443b</color>
+    <color name="gray_input_color_text">#5e6367</color>
+    <color name="my_conn_noguard_gray_title">#898c93</color>
+    <color name="my_conn_tab_gray">#a9acb3</color>
+    <color name="checkin_gray">#494748</color>
+    <color name="green_semialpha">#5540955c</color>
+    <color name="black_translucent">#50000000</color>
+
+    <color name="dark_disabled_button">#1F000000</color>
+
+    <color name="red_wrong">#dd0000</color>
+    <color name="light_red">#FFCDD2</color>
+
+
+    <color name="safelet_red">#c90c10</color>
+
+    <color name="pin_red">#f54d4d</color>
+    <color name="pin_green">#57f757</color>
+
+    <color name="blue">#46ABE0</color>
+    <color name="blue_pressed">#1378AD</color>
+
+    <color name="green">#2AC5AC</color>
+    <color name="green_pressed">#009279</color>
+
+    <color name="orange">#ED6453</color>
+    <color name="orange_pressed">#BA3120</color>
+
+    <color name="disabled_gray">#878686</color>
+
+    <color name="bubble_blue">#0F87FF</color>
+    <color name="bubble_gray">#CCCCD1</color>
+
+    <color name="status_green" tools:ignore="MissingDefaultResource">#417A00</color>
+
+</resources>

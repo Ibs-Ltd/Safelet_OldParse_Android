@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/safelet_toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+
+        <com.safelet.android.views.AlarmView
+            android:id="@+id/globalAlertPopView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notificationPopUpNetworkErrorView"
+            android:visibility="gone" />
+
+        <com.safelet.android.views.NotificationPopUpNetworkErrorView
+            android:id="@+id/notificationPopUpNetworkErrorView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/View1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/globalAlertPopView" />
+
+        <ListView
+            android:id="@+id/deviceInfoListview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/View1"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

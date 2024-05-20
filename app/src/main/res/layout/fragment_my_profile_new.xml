@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix">
+
+    <com.safelet.android.views.AlarmView
+        android:id="@+id/globalAlertPopView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notificationPopUpNetworkErrorView"
+        android:visibility="gone" />
+
+    <com.safelet.android.views.NotificationPopUpNetworkErrorView
+        android:id="@+id/notificationPopUpNetworkErrorView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/globalAlertPopView"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#af080c"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/my_profile_username_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:text="Username"
+                    android:textColor="#fff"
+                    android:textSize="24sp"
+                    tools:ignore="HardcodedText" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/my_profile_profile_picture_iv"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="20dp"
+                        android:src="@drawable/generic_icon"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/my_profile_change_picture_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/my_profile_profile_picture_iv"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/selector_button_safelet_red"
+                        android:gravity="center"
+                        android:text="@string/myprofile_changephoto"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/LinearLayout1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/myProfileNameLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:background="@drawable/selector_my_profile"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="15dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:text="@string/myprofile_name_label"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/myProfileNameTv"
+                            fontPath="fonts/SourceSansPro-Bold.ttf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:text="Placeholder"
+                            android:textSize="16sp"
+                            tools:ignore="HardcodedText" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:padding="15dp"
+                        android:src="@drawable/forward_arrow"
+                        tools:ignore="ContentDescription" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:background="#eee" />
+
+                <LinearLayout
+                    android:id="@+id/myProfileEmailLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:background="@drawable/selector_my_profile"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="15dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:text="@string/myprofile_email_label"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/myProfileEmailTv"
+                            fontPath="fonts/SourceSansPro-Bold.ttf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:text="Placeholder"
+                            android:textSize="16sp"
+                            tools:ignore="HardcodedText" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:padding="15dp"
+                        android:src="@drawable/forward_arrow"
+                        tools:ignore="ContentDescription" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:background="#eee" />
+
+                <LinearLayout
+                    android:id="@+id/myProfilePhoneLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:background="@drawable/selector_my_profile"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="15dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:text="@string/myprofile_phone_label"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/myProfilePhoneTv"
+                            fontPath="fonts/SourceSansPro-Bold.ttf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:text="Placeholder"
+                            android:textSize="16sp"
+                            tools:ignore="HardcodedText" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:padding="15dp"
+                        android:src="@drawable/forward_arrow"
+                        tools:ignore="ContentDescription" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:background="#eee" />
+
+                <LinearLayout
+                    android:id="@+id/myProfilePasswordLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:background="@drawable/selector_my_profile"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center">
+
+                    <TextView
+                        fontPath="fonts/SourceSansPro-Bold.ttf"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:text="@string/myprofile_password_label"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:padding="15dp"
+                        android:src="@drawable/forward_arrow"
+                        tools:ignore="ContentDescription" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:background="#eee" />
+
+                <LinearLayout
+                    android:id="@+id/layoutProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:background="@drawable/selector_my_profile"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center">
+
+                    <TextView
+                        fontPath="fonts/SourceSansPro-Bold.ttf"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:text="Delete my account"
+                        android:textSize="16sp"
+                        tools:ignore="HardcodedText" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:padding="15dp"
+                        android:src="@drawable/forward_arrow"
+                        tools:ignore="ContentDescription" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.6dp"
+                    android:background="#eee" />
+
+                <!-- GUARDIAN NETWORK -->
+                <LinearLayout
+                    android:id="@+id/layoutGuardianNetwork"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:background="@drawable/selector_my_profile"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center">
+
+                    <TextView
+                        fontPath="fonts/SourceSansPro-Bold.ttf"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:text="Guardian Network"
+                        android:textSize="16sp"
+                        tools:ignore="HardcodedText" />
+
+                    <ImageView
+                        android:id="@+id/imgSafeletCommunity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/check_mark"
+                        android:visibility="gone"
+                        tools:ignore="ContentDescription" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:padding="15dp"
+                        android:src="@drawable/forward_arrow"
+                        tools:ignore="ContentDescription" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

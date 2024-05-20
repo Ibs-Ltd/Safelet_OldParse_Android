@@ -1,0 +1,58 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.kotlin_version = '1.7.20'
+    ext.release_notes = System.getenv("RELEASE_NOTES") ?: "Bug fixing and improvements."
+
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url "https://maven.aliyun.com/repository/google" }
+        maven { url "https://maven.aliyun.com/repository/central" }
+        maven { url "https://maven.aliyun.com/repository/public" }
+        maven { url "https://jitpack.io" }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.2.2'
+        classpath 'com.google.gms:google-services:4.3.14'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.jetbrains.dokka:dokka-gradle-plugin:1.6.10"
+        classpath 'com.github.Mindera:gradle-versioncode-plugin:1.3'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.2'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            options.compilerArgs << "-Xlint:unchecked"
+        }
+    }
+}
+
+ext {
+    compileSdkVersion = 28
+    buildToolsVersion = '30.0.2'
+    androidXLibraryVersion = '1.0.0'
+
+    PUBLISH_GROUP_ID = 'com.theartofdev.edmodo'
+    PUBLISH_ARTIFACT_ID = 'android-image-cropper'
+    PUBLISH_VERSION = '2.8.0'
+    // gradlew clean build generateRelease
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingPrefix">
+
+    <ImageView
+        android:id="@+id/background_wings"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:alpha="1.0"
+        android:src="@drawable/vlinder_background_10p" />
+
+    <TextView
+        android:id="@+id/login_title_tv"
+        fontPath="fonts/SourceSansPro-ExtraLight.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/login_title"
+        android:textColor="@color/gray_text"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/login_forgot_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:text="@string/login_forgot"
+        android:textColor="@color/gray_text_login"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/login_register_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_forgot_tv"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/icon_back"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        android:text="@string/login_register"
+        android:textColor="@color/gray_text_login"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_title_tv"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/login_email_et"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/input_box"
+            android:ems="10"
+            android:hint="@string/login_hint_email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/gray_input_color_text"
+            android:textColorHint="@color/gray_input_color_hint">
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/login_email_alert_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="30dp"
+            android:text="@string/login_error_emailwrong"
+            android:textColor="@color/red_alert_text" />
+
+        <EditText
+            android:id="@+id/login_password_et"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/input_box"
+            android:ems="10"
+            android:hint="@string/login_hint_password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/gray_input_color_text"
+            android:textColorHint="@color/gray_input_color_hint">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/login_password_alert_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="30dp"
+            android:text="@string/login_error_passwordwrong"
+            android:textColor="@color/red_alert_text" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/privacyCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/red_alert_text"/>
+
+            <LinearLayout
+                android:id="@+id/privacyPolicy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I Agree to Accept"
+                    android:textSize="12sp"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Privacy Policy"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/red_alert_text"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" or"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Terms &amp; Condition"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/red_alert_text"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/login_login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/selector_button_safelet_red"
+            android:text="@string/login_submit"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+</RelativeLayout>

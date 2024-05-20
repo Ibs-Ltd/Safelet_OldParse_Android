@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/alertHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Customize the title TextView -->
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom Title"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:background="#FF0000"
+            android:padding="16dp"
+            android:gravity="center" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_below="@+id/alertHeader"
+        android:layout_above="@+id/alertButtons"
+        android:scrollbarThumbVertical="@null">
+
+        <TextView
+            android:id="@+id/dialog_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:padding="10dp" />
+
+    </ScrollView>
+
+    <!-- Add custom buttons -->
+
+    <RelativeLayout
+        android:id="@+id/alertButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/negative_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="Cancel"
+                android:textColor="@color/red_wrong"
+                android:background="#00000000"
+                android:layout_marginTop="16dp"/>
+
+            <Button
+                android:id="@+id/positive_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I Agree"
+                android:textColor="@color/green"
+                android:background="#00000000"
+                android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/neutral_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy Policy"
+            android:textColor="#000000"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:background="#00000000"
+            android:layout_marginTop="16dp"/>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

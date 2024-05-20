@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView android:id="@+id/deviceInfoTitleTextView"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray_text"
+        android:text="@string/device_info_category_manufacturer"
+        android:layout_marginLeft="10dp"
+        android:paddingTop="5dp" />
+
+    <TextView android:id="@+id/deviceInfoValueTextView"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/device_info_category_manufacturer"
+        android:layout_marginLeft="10dp"
+        android:paddingBottom="5dp" />
+
+</LinearLayout>

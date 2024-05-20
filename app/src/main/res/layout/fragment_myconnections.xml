@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:ignore="MissingPrefix">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/check_in"
+        android:scaleType="centerInside"
+        android:src="@drawable/vlinder_background_10p"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/globalAlertPopView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="47dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/my_guardians_tab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_my_connections_left_tab"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="@string/connections_myguardians_label"
+            android:textColor="@color/my_connections_tab_text_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/guarding_tab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_my_connections_right_tab"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="@string/connections_imguarding_label"
+            android:textColor="@color/my_connections_tab_text_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/no_guardians_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/check_in"
+        android:layout_below="@+id/LinearLayout1"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/my_connections_noguardians_label_title_tv"
+            fontPath="fonts/SourceSansPro-ExtraLight.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:text="PLACEHOLDER"
+            android:textColor="@color/my_conn_noguard_gray_title"
+            android:textSize="23sp" />
+
+        <TextView
+            fontPath="fonts/SourceSansPro-Bold.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="12dp"
+            android:text="@string/connections_you_can_start_adding_label"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/add_guardian_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:background="@null"
+            android:padding="13dp"
+            android:src="@drawable/selector_add_icon"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/no_guard_view"
+        fontPath="fonts/SourceSansPro-ExtraLight.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LinearLayout1"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="YOU ARE NOT GUARDING ANYONE"
+        android:textColor="@color/my_conn_noguard_gray_title"
+        android:textSize="23sp"
+        android:visibility="gone" />
+
+    <GridView
+        android:id="@+id/myConnectionsGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/check_in"
+        android:layout_below="@+id/LinearLayout1"
+        android:layout_centerHorizontal="true"
+        android:listSelector="#00000000"
+        android:numColumns="4"
+        android:paddingLeft="20dp"
+        android:paddingTop="15dp"
+        android:paddingRight="20dp"
+        android:verticalSpacing="3dp"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/my_connections_pb"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/check_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/red_wrong"
+        android:text="@string/checkin_title"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <com.safelet.android.views.AlarmView
+        android:id="@+id/globalAlertPopView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notificationPopUpNetworkErrorView"
+        android:visibility="gone" />
+
+    <com.safelet.android.views.NotificationPopUpNetworkErrorView
+        android:id="@+id/notificationPopUpNetworkErrorView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

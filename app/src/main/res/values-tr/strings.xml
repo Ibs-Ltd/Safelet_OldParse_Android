@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no">Hayır</string>
+    <string name="ok">Tamam</string>
+    <string name="yes">Evet</string>
+    <string name="next">İleri</string>
+    <string name="cancel">İptal</string>
+    <string name="view">Görüntüleme</string>
+    <string name="dismiss">Çıkar</string>
+    <string name="please_wait">Lütfen bekleyiniz</string>
+    <!-- Login create screen -->
+    <string name="login_create_login">Giriş</string>
+    <string name="login_create_create">Hesap oluştur</string>
+    <!-- Login screen -->
+    <string name="login_title">GİRİŞ</string>
+    <string name="login_hint_email">E-posta adresi</string>
+    <string name="login_error_emailwrong">Hatalı e-posta adresi</string>
+    <string name="login_hint_password">Şifre</string>
+    <string name="login_error_passwordwrong">Hatalı şifre</string>
+    <string name="login_submit">Giriş</string>
+    <string name="login_register">Hesap oluştur</string>
+    <string name="login_forgot">Şifreni mi unuttun?</string>
+    <string name="login_alert_message_emailcannotbeempty">E-posta adresi zorunlu</string>
+    <string name="login_alert_message_passwordcannotbeempty">Şifre zorunlu</string>
+    <string name="login_alert_message_incorrectemailaddress">Yanlış e-posta adresi</string>
+    <!-- Signup first screen -->
+    <string name="signup_first_title">HESAP OLUŞTUR</string>
+    <string name="signup_first_hint_email">E-posta adresi</string>
+    <string name="signup_first_error_emailalreadytaken">Sistemde kayıtlı e-posta adresi</string>
+    <string name="signup_first_hint_password">Şifre</string>
+    <string name="signup_first_error_repeatpassword">Şifre tekrar</string>
+    <string name="signup_first_error_wrongpassword">Yanlış şifre</string>
+    <string name="signup_first_error_passwordweak">Zayıf şifre</string>
+    <string name="signup_first_submit_createaccount">Hesap oluştur</string>
+    <string name="signup_first_login">Giriş</string>
+    <string name="signup_first_alert_message_emailcannotbeempty">Geçerli e-posta zorunlu</string>
+    <string name="signup_first_alert_message_passwordcannotbeempty">Geçerli şifre zorunlu</string>
+    <string name="signup_first_alert_message_incorrectemailaddress">Geçersiz e-posta adresi</string>
+    <string name="signup_first_alert_message_passwordsdonotmatch">Şifreler eşleşmiyor</string>
+    <string name="signup_first_alert_message_passwordweak">Zayıf şifre</string>
+    <string name="signup_first_alert_message_passwordgood">İyi şifre</string>
+    <string name="signup_first_alert_message_passwordstrong">Güçlü şifre</string>
+    <string name="signup_first_alert_message_passwordexcelent">Mükemmel şifre</string>
+    <string name="signup_first_alert_message_passwordtoosmall">Çok kısa şifre</string>
+    <string name="signup_first_alert_message_passwordoneofthefieldsempty">One of the fields is empty</string>
+    <!-- Signup second screen -->
+    <string name="signup_second_title">HESAP OLUŞTUR</string>
+    <string name="signup_second_accurateinformationrequiredlabel">Lütfen isminizi ve telefon numaranızı yazınız</string>
+    <string name="signup_second_hint_name">İsim</string>
+    <string name="signup_second_error_namemissing">İsim eksik</string>
+    <string name="signup_second_hint_telephonenumber">Telefon numarası</string>
+    <string name="signup_second_error_phonemissing">Telefon numarası eksik</string>
+    <string name="signup_second_error_prefixmissing">Telefon kodu eksik</string>
+    <string name="signup_second_uploadpicture_label">Profil fotoğrafı ekleyin</string>
+    <string name="signup_second_next">İleri</string>
+    <string name="signup_second_back">Geri</string>
+    <string name="signup_second_alert_message_namecannotbeempty">İsim zorunlu</string>
+    <string name="signup_second_alert_message_prefixcannotbeempty">Alan adı boş bırakılamaz</string>
+    <string name="signup_second_alert_message_phonecannotbeempty">Phone number required</string>
+    <string name="signup_second_alert_message_phonenumberisshort">Telefon numarası fazla kısa</string>
+    <!-- Signup third screen -->
+    <string name="signup_third_safelet_communitytitle">SAFELET KORUYUCU AĞI</string>
+    <string name="signup_third_safelet_communitymessage">Güvenlik kavramının, birbirimiz için yaptığımız işler bütünü olduğuna inandığın için, seni Safelet Koruyucu Ağına katılmaya davet ediyoruz. Eğer senin yakınında herhangi bir kullanıcının yardıma ihtiyacı olursa, bir yardım mesajı alacaksınız.</string>
+    <!-- Signup fourth screen -->
+    <string name="signup_fourth_dialog_title_success">Başarılı!</string>
+    <string name="signup_fourth_dialog_title">Mesaj</string>
+    <string name="signup_fourth_dialog_title_message_accountcreatedsuccess">Succes! Your account has been created</string>
+    <!-- Change email screen -->
+    <string name="change_email_dialog_title">Mesaj</string>
+    <string name="change_email_dialog_message_successfullyupdated">Email address successfully updated!</string>
+    <string name="change_email_alert_message_invalidemailaddress">Invalid email address</string>
+    <string name="change_email_alert_message_emailcannotbeempty">Email field cannot be empty!</string>
+    <string name="change_email_title">E-posta adresini değiştir</string>
+    <string name="change_email_button_change">E-posta adresini değiştir</string>
+    <!-- Change password screen -->
+    <string name="change_password_title">Şifre değiştir</string>
+    <string name="change_password_hint_currentpassword">Mevcut şifre</string>
+    <string name="change_password_currentpasswordnotvalid">Mevcut şifre geçerli değil</string>
+    <string name="change_password_hint_newpassword">Yeni şifre</string>
+    <string name="change_password_hint_repeatnewpassword">Yeni şifreyi tekrar et</string>
+    <string name="change_password_wrongpassword">Yanlış şifre</string>
+    <string name="change_password_button">Şifre değiştir</string>
+    <string name="change_password_forgot">Şifreyi unut</string>
+    <string name="change_password_dialog_title">Mesaj</string>
+    <string name="change_password_dialog_message_successfullyupdated">Password has been changed successfully</string>
+    <string name="change_password_alert_message_passwordcannotbeempty">Password cannot be empty</string>
+    <string name="change_password_alert_message_passworddontmatch">Passwords do not match</string>
+    <string name="change_password_alert_message_passwordsame">New password is the same as current password</string>
+    <!-- Change phone number screen -->
+    <string name="change_phone_title">Telefon numarasını değiştir</string>
+    <string name="change_phone_prefix">+</string>
+    <string name="change_phone_hint_telephone">Telefon numarası</string>
+    <string name="change_phone_error_phonemissing">Telefon numarası eksik</string>
+    <string name="change_phone_error_prefixmissing">Telefon kodu eksik</string>
+    <string name="change_phone_prefix_title">Telefon kodu</string>
+    <string name="change_phone_submitbutton">Telefon numarasını değiştir</string>
+    <string name="change_phone_number_alert_phonecannotbeempty">Phone number cannot be empty</string>
+    <string name="change_phone_number_alert_prefixcannotbeempty">Prefix cannot be empty</string>
+    <string name="change_phone_dialog_title">Mesaj</string>
+    <string name="change_phone_dialog_message_successfullyupdated">Phone number successfully updated!</string>
+    <!-- Crop screen -->
+    <string name="crop_screen_cancel">İptal</string>
+    <string name="crop_screen_done">Tamamlandı</string>
+    <!-- Forgot password screen -->
+    <string name="forgot_password_title">Şifreyi unut</string>
+    <string name="forgot_password_button_resetpassword">Şifreyi sıfırla</string>
+    <string name="forgot_password_hint_email">E-posta</string>
+    <string name="forgot_password_alert_warning">Uyarı</string>
+    <string name="forgot_password_forgotpassword">ŞİFREYİ UNUT</string>
+    <string name="forgot_password_login">Giriş</string>
+    <string name="forgot_password_register">Kayıt</string>
+    <string name="forgot_password_dialog_title">Mesaj</string>
+    <string name="forgot_password_dialog_message_successfullyupdated">A password reset email has been sent to your email address</string>
+    <string name="forgot_password_alert_emailcannotbeempty">E-posta boş bırakılamaz</string>
+    <string name="forgot_password_alert_usernotanemail">Kullanıcı, e-posta formatında değildir</string>
+    <!-- Invite guardians screen -->
+    <string name="invite_guardians_dialog_message_interneterror">Unable to retrieve contacts. Please check your Internet connection</string>
+    <string name="invite_guardians_dialog_message_activeinternetconnectionrequirederror">Kayıt defterinizdeki kişiler bilgilerinizi almak için aktif internet bağlantısına ihtiyacınız var. İnternet bağlantınızı açmak ister misiniz?</string>
+    <string name="invite_guardians_text">Merhaba, acil bir durum olduğunda bana yardım etmek ister misin? Senin yardımına ihtiyacım olduğu zaman, konum bilgimle birlikte sana bir alarm gönderebilmem için Safelet uygulamasını indir.\niOS: http://bit.ly/Safelet-iOS\nAndroid: http://bit.ly/Safelet-Android</string>
+    <string name="invite_guardians_unabletosendinvitationdueto">Davet e-postası gönderilemedi</string>
+    <string name="invite_non_user_successfully">Koruyucunuz olması ve Safelet ağına katılması için gönderdiğiniz kullanıcı daveti başarılıdır.</string>
+    <string name="invite_non_user_failed">Safelet ağına katılması için oluşturduğunuz kullanıcı daveti başarısız olmuştur.</string>
+    <string name="invite_guardians_title_success">Başarılı</string>
+    <string name="invite_guardians_title_failed">Başarısız</string>
+    <!-- Invite actions -->
+    <string name="invite_action_requestasguardian">Koruyuculuk talep et</string>
+    <string name="invite_action_cancelrequest">Koruyucu talebini iptal et</string>
+    <!-- Home Screen -->
+    <string name="home_drawer_title">Safelet</string>
+    <string name="home_dialog_logout_title">Uyarı</string>
+    <string name="home_dialog_logout_message">Are you sure you want to log out of the application?</string>
+    <string name="home_dialog_title">Mesaj</string>
+    <string name="home_dialog_message_networkerror">İnternet bağlantısı yok</string>
+    <string name="home_feedback_title">Destek</string>
+    <string name="home_logout_title">Çıkış</string>
+    <!-- Alert pop view -->
+    <string name="alert_pop_ineedhelp">Yardım talep ettin!</string>
+    <string name="alert_pop_needshelp_1">%s, yardımını istiyor</string>
+    <string name="alert_pop_peopleneedshelp">%s insanların yardıma ihtiyacı var</string>
+    <string name="alert_pop_recording_stop">Maksimum kayıt süresine ulaştığınız için kayıt durduruldu</string>
+    <!-- Connections Screen -->
+    <string name="connections_title">GÜVENLİK AĞI</string>
+    <string name="connections_myguardians_label">Koruyucularım</string>
+    <string name="connections_imguarding_label">Koruyorum</string>
+    <string name="connections_you_have_no_guardians_label">SENİN &lt;br /&gt;KORUYUCUN YOK</string>
+    <string name="connections_you_can_start_adding_label">Koruyucularını davet et</string>
+    <string name="connections_seelastcheckin_title">Son konum bilgisini gör</string>
+    <string name="connections_cancel_label">İptal</string>
+    <string name="connections_actionsforuser_label">Kullanıcı &#160; için işlemler</string>
+    <string name="connections_removeguardian_label">Koruyucuyu çıkar</string>
+    <string name="connections_stopguarding_label">Korumayı bırak</string>
+    <!-- Events / Notifications screen -->
+    <string name="events_title">Olaylar</string>
+    <string name="events_noevents_label">Yeni bir olay yok</string>
+    <string name="events_screen_dialog_error_unabletoretrieve_message">Unable to retrieve notifications</string>
+    <string name="events_screen_dialog_error_youneedanactiveinternetconnection_message">Bildirilerinizi kontrol etmek için aktif internet bağlantısına ihtiyacınız var. İnternet bağlantınızı açmak istediğinize emin misiniz?</string>
+    <string name="history_events">Olay geçmişi: %s</string>
+    <string name="tap_to_change">Ndeğiştirmek için dokunun</string>
+    <string name="on_text">AÇIK</string>
+    <string name="off_text">KAPALI</string>
+    <!-- My profile screen -->
+    <string name="myprofile_title">PROFİL</string>
+    <string name="myprofile_changephoto"><u>Fotoğrafı değiştir</u></string>
+    <string name="myprofile_name_label">İsim</string>
+    <string name="myprofile_email_label">E-posta</string>
+    <string name="myprofile_phone_label">Telefon</string>
+    <string name="myprofile_password_label">Şifre</string>
+    <!-- Safeletcommunity screen -->
+    <string name="community_screen_dialog_title">Mesaj</string>
+    <string name="community_screen_title">Safelet Koruyucu Ağı</string>
+    <string name="community_title">Koruyucu Ağı</string>
+    <string name="community_screen_title_joined">SAFELET KORUYUCU AĞINA HOŞ GELDİNİZ</string>
+    <string name="community_screen_message_joined">Artık Safelet Koruyucu Ağının bir parçası olmak istemiyorsanız, lütfen aşağıdaki butona basın.</string>
+    <string name="community_screen_joinbutton">Katıl</string>
+    <string name="community_screen_button_leave">Safelet Koruyucu Ağından çık</string>
+    <string name="community_screen_dialog_networkerror_message">İnternet bağlantısı yok</string>
+    <string name="community_screen_join_title">SAFELET KORUYUCU AĞI</string>
+    <!-- Alert Screen -->
+    <string name="your_string">Sen</string>
+    <string name="alert_screen_title">Uyarı</string>
+    <string name="alarm_title">ALARM</string>
+    <string name="play_audio">Oynat Ses Dosyası</string>
+    <string name="stop_audio">Durdur Ses Dosyası</string>
+    <string name="alert_screen_button_onmyway">Yoldayım</string>
+    <string name="call_emergency">%d\'i ara</string>
+    <string name="recording_text">Kaydediyor...</string>
+    <string name="alert_disable_alertlabel">Alarm etkisiz</string>
+    <string name="alert_screen_dialog_title">Mesaj</string>
+    <string name="alert_screen_unknownaddress_label">Bilinmeyen adres</string>
+    <string name="alert_screen_dialog_message_error_network">İnternet bağlantısı yok</string>
+    <string name="alert_screen_alarm_stopped_message">Alarm iptal edildi</string>
+    <string name="participants_notified_message">Acil durum çağrısı yapılan katılımcılar bilgilendirildi</string>
+    <string name="dialog_title_success">Başarılı</string>
+    <!-- Change name screen -->
+    <string name="change_name_title">İsimimi düzenle</string>
+    <string name="change_name_error_namecannotbeempty">İsim boş bırakılamaz!</string>
+    <string name="change_name_submit_button">İsmi değiştir</string>
+    <string name="change_name_dialog_title">Mesaj</string>
+    <string name="change_name_dialog_message_successfullyupdated">Name successfully updated!</string>
+    <string name="change_name_alert_namecannotbeempty">Name field cannot be empty!</string>
+    <!-- Checkin screen -->
+    <string name="checkin_title">Yer Bildir</string>
+    <string name="checkin_hint_descriptionhere">Tanım</string>
+    <string name="checkin_dialog_title_success">Başarılı</string>
+    <string name="checkin_dialog_message_success">You are checked in. Your Guardians have been informed</string>
+    <string name="checkin_dialog_title_error_network">Hata</string>
+    <string name="checkin_you_label">Sen</string>
+    <string name="checkin_noaddressfound_label">Adres bulunamadı</string>
+    <string name="checkin_dialog_error_inserttextmessage">Mesaj ekle.</string>
+    <string name="checkin_dialog_error_unk">Bilinmeyen hata.</string>
+    <!-- Last checkin screen -->
+    <string name="last_checkin_chekedinlabel">Yer bildir %s</string>
+    <string name="last_checkin_chekedinjustnow">Sadece şimdi</string>
+    <string name="last_checkin_noaddressfound">Adres bulunamadı</string>
+    <string name="last_checkin_alert_screen_title">Uyarı</string>
+    <string name="last_checkin_no_checkin_msg">Bu kullanıcı hiç yer bildirimi yapmadı</string>
+    <!-- Invite guardians screen -->
+    <string name="invite_guardians_title">Koruyucularını davet et</string>
+    <string name="invite_guardians_noresults">Sonuç bulunamadı</string>
+    <string name="invite_guardians_loading">Kişiler yükleniyor&#8230;</string>
+
+    <!-- Contacts statuses -->
+    <string name="contact_status_contact_invited">Invited via SMS</string>
+    <string name="contact_status_guardian_invited">Guardian invitation sent</string>
+    <string name="contact_status_your_guardian">Your Guardian</string>
+    <string name="contact_status_not_member">Not a member</string>
+    <string name="contact_status_member">Safelet member</string>
+
+    <!-- Notifications screen -->
+    <string name="notification_xneedsyourhelp">%s, yardımını istiyor!</string>
+    <string name="notification_xhasdispatcheddalert">%s alarm gönderildi</string>
+    <string name="notification_xhasrequestedyouasguardian">%s, onun koruyucusu olmanı talep etti</string>
+    <string name="notification_xhascheckedin">%s, burada yer bildirimi yaptı&#160;</string>
+    <string name="notification_justnow">Sadece şimdi</string>
+    <string name="notification_location">Konum: %s</string>
+    <string name="notification_cell_top_needshelp">Yardımına ihtiyacı var!</string>
+    <string name="notification_cell_top_seedetails">Detaylara bak</string>
+    <string name="notification_cell_top_ignore">Yok say</string>
+    <string name="notification_cell_accept">Kabul et</string>
+    <string name="notification_cell_decline">Reddet</string>
+    <string name="notification_cell_play_disabled">Şu anda uygun kayıt yok. Lütfen daha sonra tekrar deneyin</string>
+    <string name="notification_cell_play">Kayıt oynat</string>
+    <string name="notification_cell_stop">Kayıt oynatmayı durdur</string>
+    <string name="notification_cell_canceled">İptal edildi</string>
+    <string name="notification_cell_accepted">Daveti kabul ettiniz</string>
+    <string name="notification_cell_rejected">Daveti reddettin</string>
+    <!-- Network error popup -->
+    <string name="popup_networkerror">Ağ sinyali yok</string>
+    <!-- Utils -->
+    <string name="utils_gps_enabling_title">Mesaj</string>
+    <string name="utils_gps_enabling_yes">Evet</string>
+    <string name="utils_gps_enabling_no">Hayır</string>
+    <string name="utils_gps_enabling_message">Your GPS seems to be disabled. Do you want to enable it?</string>
+    <!-- General -->
+    <string name="general_nointernetconnection">İnternet bağlantısı yok</string>
+    <!-- Calendar -->
+    <string name="calendar_aminuteago">Bir dakika önce</string>
+    <string name="calendar_minutesago">&#160;dakika önce</string>
+    <string name="calendar_ahourago">Bir saat önce</string>
+    <string name="calendar_hoursago">&#160;saat önce</string>
+    <string name="calendar_yesterday">Dün</string>
+    <string name="calendar_daysago">&#160;gün önce</string>
+
+    <!-- Pair with safelet Wizard -->
+    <string name="safelet_connect_title">SOS-BILEZIK BAĞLANTISI</string>
+    <string name="safelet_disconnect_title">BAĞLANTI SOS BİLEZİK</string>
+    <string name="safelet_disconnecting_title">SOS BİLEZİK BAĞLAMA</string>
+    <string name="safelet_disconnect_alert_connected_text">Safelet bileziğinizle olan bağlantıyı kesmek istediğinizden emin misiniz?</string>
+    <string name="safelet_disconnect_alert_disconnected_text">Safelet bileziğiniz şu anda bağlı değil. Telefonunuzun Safelet bileziği ile olan bağlantısını kaldırmak istediğinize emin misiniz?</string>
+    <string name="safelet_pair_wizard_welcome_message">Hoş geldiniz. Bu sihirbaz Safelet bileziğinizle telefonunuzu eşleştirecek.</string>
+    <string name="safelet_pair_wizard_no_bluetooth">Lütfen devam etmek için Bluetooth özelliğini aktif hale getirin.</string>
+    <string name="safelet_pair_wizard_connect_failed">Safelet Bileziğinize bağlanılamadı. Aşağıdaki işlemlerden birini seçin ve sonra menüden \"\"Safelet bileziğine bağlan\"\" seçeneğiyle tekrar bağlanmayı deneyin:</string>
+    <string name="safelet_pair_wizard_failed_info">Kırmızı ışık yanana kadar, yaklaşık 10 saniye basılı tutun</string>
+    <string name="safelet_pair_wizard_first_info">・ Android cihazınızı yeniden başlatın</string>
+    <string name="safelet_pair_wizard_making_relation">The Safelet was found. Your mobile phone is now creating a relation with the Safelet.\n\nWait until the application finishes configuring the bracelet.\n\nIf the relation takes longer then one minute press the button on the bracelet again.</string>
+    <string name="safelet_pair_wizard_second_info">・ Safelet bileziğinizi kapatıp açın</string>
+    <!--
+    <string name="safelet_pair_wizard_bonding_press_alarm">The app will issue a bonding request. As soon as the Safelet accepts the bond we can go to the next step.</string>-->
+    <string name="safelet_pair_wizard_paired">Telefonunuzla Safelet bileziğiniz bağlandı. Android bildirimlerinizden, bağlantılarınızın durum bilgisine ulaşabilirsiniz.</string>
+    <string name="safelet_pair_wizard_status_text_scanning">Durum: Taranıyor...</string>
+    <!-- Safelet Test Wizard -->
+    <string name="safelet_pair_wizard_action_turnon_bluetooth">Lütfen telefonunuzdaki Bluetooth özelliğini aktif hale getirin.</string>
+    <!-- Options menu -->
+    <string name="options_app_version">Uygulama sürümü</string>
+    <string name="options_title">AYARLAR</string>
+    <string name="options_category_safelet">Safelet</string>
+    <string name="options_device_info_title">Safelet Bilgisi</string>
+    <string name="options_device_info_description">Safelet cihazının tüm bilgilerini görüntüle</string>
+    <string name="options_firmware_update_title">Safelet Yazılım Güncelleme</string>
+    <string name="options_firmware_updating_title">Safelet Yazılımı Güncelleniyor...</string>
+    <string name="options_firmware_update_desc">Yeni Safelet Yazılım güncellemelerini kontrol et</string>
+    <string name="options_firmware_update_no_safelet_used">Uygulamayla birlikte bir Safelet bileziği kullanmıyorsunuz.</string>
+    <string name="options_firmware_update_no_safelet_connection">Artık Safelet bileziğine bağlı değilsiniz. Safelet yazılım güncelemesi için bağlantıya ihtiyaç duymaktadır.</string>
+    <string name="options_firmware_update_status_checking">Yeni yazılım güncellemeleri kontrol ediliyor...</string>
+    <string name="options_firmware_update_no_update_found">Yeni bir yazılım güncellemesi bulunamadı.</string>
+    <string name="options_firmware_update_process_in_background">Yeni yazılım güncellemesi ilerliyor.</string>
+    <string name="options_firmware_update_are_you_sure">Yeni güncellemeleri aratıp, Safelet bileziğinizi güncellemek istediğinize emin misiniz?</string>
+    <string name="device_info_title">Cihaz bilgisi</string>
+    <string name="device_info_category_manufacturer">Üretici Adı</string>
+    <string name="device_info_category_model_number">Model Numarası</string>
+    <string name="device_info_category_firmware_revision">Yazılım revizyonu</string>
+    <string name="device_info_category_hardware_revision">Donanım revizyonu</string>
+
+    <!-- Safelet Notification States -->
+    <string name="safelet_notification_state_no_guardian_no_safelet_title">Safelet</string>
+    <string name="safelet_notification_state_guardian_only_title">Koruyucu</string>
+    <string name="safelet_notification_state_safelet_disconnected_title">Bağlantı yok</string>
+    <string name="safelet_notification_state_safelet_connected_title">%s tarafından korunmaktadır</string>
+    <string name="safelet_notification_state_safelet_connected_title_multiple">Koruma, %s kullanıcısının kişileri tarafından gerçekleştirilmektedir.</string>
+    <string name="safelet_notification_state_no_guardian_no_safelet_description">Safelet\'a bağlan ya da Koruyucu ol</string>
+    <string name="safelet_notification_state_guardian_only_description">Koruduğu kişi: %s</string>
+    <string name="safelet_notification_state_guardian_only_description_multiple_persons">%s kullanıcısının kişilerini korumaktadır.</string>
+    <string name="safelet_notification_state_safelet_disconnected_description_no_internet">İnternet bağlantısı yok</string>
+    <string name="safelet_notification_state_safelet_disconnected_description_no_safelet">Safelet bileziğine bağlanılamadı</string>
+    <string name="safelet_notification_state_safelet_disconnected_description_no_bluetooth">Bluetooth aktif değil</string>
+    <string name="safelet_notification_state_guardian_unknown">Bir Koruyucu</string>
+    <string name="safelet_notification_state_guarded_unknown">Aktif Koruyucu</string>
+    <string name="safelet_notification_state_no_guardians">Koruyucun yok!</string>
+    <string name="safelet_notification_state_safelet_connected_no_internet">Korunmasız: İnternet bağlantısı yok</string>
+    <string name="safelet_notification_state_firmware_update_title">Yazılım güncelleniyor</string>
+    <string name="safelet_notification_state_firmware_update_desc">%s</string>
+    <string name="safelet_notification_state_firmware_update_done_title">Yazılım Güncelleme Tamamlandı</string>
+    <string name="safelet_notification_state_firmware_update_done_desc">Safelet yeniden başlatılacaktır</string>
+    <string name="safelet_notification_state_no_location_enabled">Korunmasız: Konum bilginize ulaşılamıyor</string>
+    <string name="safelet_notification_state_connecting">Cihaza bağlanıyor…</string>
+    <string name="safelet_notification_state_no_location_safelet_community_title">Koruma topluluğu değil.</string>
+    <string name="safelet_notification_state_no_location_safelet_community_desc">Topluluk için konum servisine ihtiyaç var.</string>
+    <string name="safelet_notification_state_battery_level">Safelet battery level is %d%%. Please charge up your Safelet</string>
+    <string name="safelet_notification_state_searching">Searching for device…</string>
+    <string name="safelet_notification_state_disconnecting">Disconnecting from device…</string>
+
+    <!-- Emailed to Nick for rewriting on 31 july -->
+    <!-- New not redacted -->
+    <string name="invalid_session_title">Geçersiz oturum</string>
+    <string name="invalid_session_message">Oturum artık geçerli değil. Lütfen tekrar giriş yapın.</string>
+    <!-- Notification strings -->
+    <string name="dispatch_alarm_message">%s, yardımını istiyor!</string>
+    <string name="stop_alarm_message">%s alarmı iptal etti</string>
+    <string name="stop_alarm_reason_message">%1$s alarmý iptal etti. Sebep: %2$s</string>
+    <string name="join_alarm_message">%s yolda</string>
+    <string name="call_emergency_message">%s acil durum yetkililerini çağırdı!</string>
+    <string name="check_in_short_message">%s yer bildirimi yaptı</string>
+    <string name="check_in_long_message">%1$s burada yer bildirimi yaptı: %2$s</string>
+    <string name="send_invitation_message">%s seni Koruyucusu olmaya davet etti</string>
+    <string name="accept_invitation_message">%s senin davetini kabul etti</string>
+    <string name="reject_invitation_message">%s senin davetini reddetti</string>
+    <string name="cancel_invitation_message">%s sana yolladığı koruyuculuk davetini iptal etti</string>
+    <string name="remove_connection_guardian_message">%s seni koruyucusu olmaktan çıkarttı</string>
+    <string name="remove_connection_guarded_message">%s senin koruyuculuğunu bıraktı</string>
+    <!-- Error strings -->
+    <string name="error_general">Bir hata oluştu. Lütfen tekrar deneyiniz.</string>
+    <string name="error_existing_alarm">%s kullanıcısı için aktif bir alarm mevcuttur. Her bir kullanıcı için sadece bir tane aktif alarm açılabilir.</string>
+    <string name="error_dispatch_alarm">Alarm gönderilirken bir hata ile karşılaşıldı. Lütfen tekrar deneyiniz.</string>
+    <string name="error_server">Sunucu hatası. Lütfen tekrar deneyiniz. %s.</string>
+    <string name="error_stop_alarm">Alarm durdurulurken bir hata ile karşılaşıldı. Lütfen tekrar deneyiniz.</string>
+    <string name="error_ignore_alarm">Alarmı yoksay işlemi başarısız.Sebep:\'%s\'. Lütfen tekrar deneyiniz.</string>
+    <string name="error_get_active_alarm">Aktif alarm arama işlemi esnasında bir hata oluştu.</string>
+    <string name="error_get_alarm_participants">Alarm için katılımcılar listesi çekilirken bir hata oluştu.</string>
+    <string name="error_called_emergency">Katılımcılar, acil durum çağrısı hakkında bilgilendirilirken bir hata oluştu.</string>
+    <string name="error_refresh_alarm">Alarm yenilenirken bir hata oluştu.</string>
+    <string name="error_get_all_chunks">Alarm kaydedilirken bir hata oluştu.</string>
+    <string name="error_get_last_chunk">Alarmın son kayıt kümesi getirilirken bir hata oluştu.</string>
+    <string name="error_save_recording">Kayıt kümesi kaydedilirken bir hata oluştu. İlgili küme alarm ile eşleştirilemedi.</string>
+    <string name="error_max_recording">Maksimum kayıt süresine ulaştığınız için kayıt durduruldu.</string>
+    <string name="error_last_checkin">%s\' kullanıcısının son yer bildirimi getirilirken bir hata oluştu. Lütfen tekrar deneyiniz.</string>
+    <string name="error_last_checkin_2">Son yer bildirimi getirilirken bir hata oluştu. Lütfen tekrar deneyiniz.</string>
+    <string name="error_last_checkin_3">Yer bilgisi alınırken bir hata oluştu. Lütfen tekrar deneyiniz.</string>
+    <string name="error_send_checkin">Yer bildirimi gönderilirken bir hata oluştu. Lütfen tekrar deneyiniz.</string>
+    <string name="error_get_events">Olaylar listelenirken bir hata oluştu. Lütfen tekrar deneyiniz.</string>
+    <string name="error_get_firmware">Yazılım güncelleme işlemi başarısız. Sebep: \'%s\'. Lütfen tekrar deneyiniz.</string>
+    <string name="error_get_app_version">Uygulamanın son sürümünü güncelleme işlemi başarısız. Sebep: \'%s\'. Lütfen tekrar deneyiniz.</string>
+    <string name="error_get_users">Safelet bileziği kullanıcıları ile kayıt defterinizdeki kişileri eşleştirirken bir hata oluştu. Lütfen tekrar deneyiniz.</string>
+    <string name="error_invitation">Davet gönderilirken bir hata oluştu. Lütfen tekrar deneyiniz.</string>
+    <string name="error_invitation_exist">Bu kullanıcıların \'%s\' durumu ile bir ilişkisi mevcut.</string>
+    <string name="error_invitation_status">Sağlanan davet cevap durumu \'%s\' geçersiz.</string>
+    <string name="error_bad_invitation_status">Durumu \'%s\' olan bir davete cevap veremezsiniz. Yalnızca \'beklemede\' durumundaki davetlere cevap verebilirsiniz.</string>
+    <string name="error_response_invitation">Davete cevap verirken bir hata ile karşılaşıldı. Lütfen tekrar deneyiniz.</string>
+    <string name="error_cancel_invitation_invalid_status">Durumu \'%s\' olan bir daveti iptal edemezsiniz. Yalnızca \'beklemede\' durumundaki davetleri iptal edebilirsiniz.</string>
+    <string name="error_cancel_invitation">Davet iptal edilirken bir hata oluştu. Lütfen tekrar deneyiniz.</string>
+    <string name="error_cancel_invitation_inexistent">Davet iptal edilirken bir hata oluştu. Davet mevcut değil. Lütfen yenileyin.</string>
+    <string name="error_remove_invitation_invalid_status">Durumu \'%s\' olan bir daveti silemezsiniz. Yalnızca \'kabul edilmiş\' davetleri silebilirsiniz.</string>
+    <string name="error_remove_invitation">Bağlantıyı silerken bir hata ile karşılaşıldı. Lütfen tekrar deneyiniz.</string>
+    <string name="error_remove_invitation_inexistent">Bağlantıyı silerken bir hata ile karşılaşıldı. Bağlantı mevcut değil. Lütfen yenileyin.</string>
+    <string name="error_get_guardians">Koruyucuları getirirken bir hata oluştu. Lütfen tekrar deneyiniz.</string>
+    <string name="error_get_guarded">Korunan kullanıcıları getirirken bir hata oluştu. Lütfen tekrar deneyiniz.</string>
+    <string name="error_check_user">Kullanıcı adı \'%s\' olan mevcut kullanıcıları ararken bir hata ile karşılaşıldı. Lütfen tekrar deneyin.</string>
+    <string name="error_phone_details">Telefon verisi saklanamadı. Sebep : %s.</string>
+    <string name="error_bt_notification">Bluetooth bağlantısı işaretlenemedi. Sebep : %s.</string>
+    <string name="error_save_user_empty_email">E-posta boş bırakılamaz.</string>
+    <string name="error_save_user_empty_username">Kullanıcı adı boş bırakılamaz.</string>
+    <string name="error_save_user_empty_name">İsim boş bırakılamaz.</string>
+    <string name="error_save_user_invalid_name">Geçersiz isim. Sadece harf ve boşluk içerebilir ve isim en az 3 karakter uzunluğunda olmalıdır.</string>
+    <string name="error_user_exist">E-posta adresi kullanımda</string>
+    <string name="error_user_not_exist">E-posta adresi kullanılmıyor</string>
+    <string name="error_remove_guardian">Koruyucu silme talebi başarısız oldu. Lütfen tekrar deneyiniz.</string>
+    <string name="error_remove_guarded">Korunan kullanıcıyı silme talebi başarısız oldu. Lütfen tekrar deneyiniz.</string>
+    <string name="error_wrong_pass">Mevcut şifre hatalı. Lütfen tekrar deneyiniz.</string>
+    <string name="error_wrong_credentials">Geçersiz e-posta ya da şifre. Lütfen tekrar deneyiniz.</string>
+    <string name="error_forgot_password">Şifre sıfırlama işlemi başarısız oldu. Lütfen tekrar deneyiniz.</string>
+    <string name="error_join_alarm">Alarma katılamadı. Lütfen tekrar deneyin.</string>
+    <string name="loading_alarm_failed">Alarm yüklenemedi. Lütfen tekrar deneyiniz.</string>
+    <string name="reload">Yeniden yükleme</string>
+    <string name="disable_reason">Ýptal Sebebi: %s</string>
+    <string name="disable_reason_test">bu bir test alarmýydý</string>
+    <string name="disable_reason_accidental">bu yanlýþlýkla verilen bir alarmdý</string>
+    <string name="disable_reason_not_needed">artýk yardým gerekmiyor</string>
+    <string name="select_reason">Lütfen bir sebep seçiniz</string>
+    <string name="reason_test_alarm">Lütfen telaþlanma, bu sadece bir test alarmýydý</string>
+    <string name="reason_accidental_alarm">Lütfen telaþlanma, Ben yanlýþlýkla alarmý aktif ettim</string>
+    <string name="reason_help_not_needed">Tetikte olduðun için teþekkür ederim. Artýk yardýmýna ihtiyacým yok</string>
+    <string name="reason_other">Diðer</string>
+
+    <string name="alarm_sent">Gardiyanlara alarm gönderildi</string>
+    <string name="guardian_on_his_way">%s kendi yolunda</string>
+
+    <string name="privacy"><u>Gizlilik Politikası</u></string>
+    <string name="privacy_url" translatable="false">http://safelet.com/us/privacy-policy/</string>
+    <string name="acquiring_location">Konum edinme…</string>
+
+    <string name="notification_channel_status">durum</string>
+    <string name="notification_channel_battery">pil</string>
+    <string name="notification_channel_update">Güncelleştirme</string>
+
+    <!-- Right Side Menu String -->
+    <string name="txt_menu_getting_started">BAŞLAMAK</string>
+    <string name="txt_menu_safelet_status_area">SOS-BİLEKLİK DURUMU</string>
+    <string name="txt_menu_home">EV</string>
+    <string name="msg_delete_my_account_text">Hesap silinirken sorun oluştu, Lütfen daha sonra tekrar deneyin!</string>
+
+    <string name="btnCapture">capture</string>
+    <string name="need_camera_permissions">Bu uygulama kameradan video çekmek için WRITE_EXTERNAL_STORAGE, RECORD_AUDIO ve CAMERA izinlerine ihtiyaç duyuyor.</string>
+
+    <string name="str_start_follow_me_message">%s yardımınıza ihtiyacı var: beni hedefime kadar takip edersen daha güvende hissederim. Beni takip etmeye başlamak için bu mesaja tıklayın.</string>
+    <string name="str_stop_follow_me_message">%s güvenli bir şekilde varış yerine ulaşmıştır. Varligin icin tesekkurler bir arkadaş.</string>
+
+    <!-- Follow Me String -->
+    <string name="unknown_location">Bilinmeyen konum</string>
+    <string name="str_stop_follow_user_message">%s has stopped following you!</string>
+    <string name="safelet_pair_wizard_searching_and_bonding">Lütfen SOS bileziği üzerindeki düğmeye basın</string>
+
+    <!-- Privacy policy accept -->
+    <string name="str_policy_notification_msg">%s policy notification</string>
+
+</resources>

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.safelet.android">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <!-- For detecting network connectivity changes -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- For detecting wifi connectivity changes -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- For retrieving contacts from phone -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+
+    <!-- For starting the application at boot time -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
+    <!-- Used in reading users phone number -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- For testing the Safelet Connection -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- Required for accessing gps location provider -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Required for getting users profile -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- gcm permissions -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <permission
+        android:name="com.safelet.android.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.safelet.android.permission.C2D_MESSAGE" />
+
+    <!-- Awareness API -->
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+
+    <!-- Battery optimization -->
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+    <!-- Video Recording -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" />
+    <!--
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+        -->
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <permission
+        android:name="com.example.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.safelet.android.permission.MAPS_RECEIVE" />
+
+    <application
+        android:name=".global.ApplicationSafelet"
+        android:allowBackup="false"
+        android:enabled="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/SafeletApp.AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <!--
+        android:theme="@style/AppTheme"
+        -->
+        <activity
+            android:name=".activities.SplashActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.LoginCreateActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.SignupActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing|stateHidden" />
+
+        <activity
+            android:name=".activities.HomeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name=".activities.AlarmActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name=".activities.DisableAlarmActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.ForgotPasswordActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.EditUserInformationActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.PhonePrefixListActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.InviteGuardiansActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name=".activities.LastCheckinActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="activities.PairSafeletWizard01Welcome"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="activities.PairSafeletWizard02Bluetooth"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="activities.PairSafeletWizard03SearchForSafelet"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="activities.PairSafeletWizard03FailedConnectSafelet"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="activities.PairSafeletWizard04Connecting"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.PairSafeletWizard05Connected"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.SafeletDeviceInfoActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.NotificationActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.IAmHereActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.FollowMeActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.AlarmActivationActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.GuardianNetworkActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.AcceptTermsAndConditionActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.safelet.android.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_path" />
+        </provider>
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <receiver android:name=".receivers.OnBootReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".receivers.SafeletSosReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.soskeydown" />
+            </intent-filter>
+        </receiver>
+
+        <service android:enabled="true"
+            android:name="services.BluetoothConnectionService" />
+        <service android:name=".services.RecordSoundService" />
+        <service android:name=".services.BluetoothLogService" />
+        <service android:name=".services.DfuService" />
+
+        <service
+            android:name=".services.SafeletService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!--android:value="@string/parse_app_id"
+        android:value="@string/parse_server"-->
+
+        <!--<meta-data
+            android:name="com.parse.SERVER_URL"
+            android:value="https://safelet.herokuapp.com/parse" />
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="zLhpwZUZbSiEc4hcQso5TGTyTKBJe2u3ktQSiqma" />-->
+
+
+        <!--<meta-data
+            android:name="com.parse.SERVER_URL"
+            android:value="https://safelet-release-uat.herokuapp.com/parse" />
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="Zb1Ae576LVwLcHsGWc6hYOvwNc2Z3YS6xqOQEZ7n" />-->
+
+
+       <!-- <meta-data
+            android:name="com.parse.SERVER_URL"
+            android:value="https://safelet-release-uat.herokuapp.com/parse" />
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="Zb1Ae576LVwLcHsGWc6hYOvwNc2Z3YS6xqOQEZ7n" />-->
+
+
+        <meta-data
+            android:name="com.parse.SERVER_URL"
+            android:value="@string/parse_server" />
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="@string/parse_app_id" />
+
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="@string/parse_client_key" />
+
+        <meta-data android:name="com.parse.push.gcm_sender_id"
+            android:value="id:32926216083" />
+
+
+        <!--<service
+            android:name="com.parse.fcm.ParseFirebaseInstanceIdService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>-->
+        <service
+            android:name="com.parse.fcm.ParseFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!--<receiver android:name="com.parse.ParsePushBroadcastReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+                <action android:name="com.parse.push.intent.DELETE" />
+            </intent-filter>
+        </receiver>-->
+
+        <receiver
+            android:name=".receivers.SafeletPushBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+
+        <!--<service android:name="com.parse.fcm.ParseFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".receivers.SafeletPushBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>-->
+
+        <meta-data
+            android:name="com.parse.push.notification_icon"
+            android:resource="@drawable/notification_safelet_connected_white" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="0c28127106d0e1c4fc759a84f38f04446b6f4222" />
+
+        <!-- Google Map -->
+        <!--<meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_map_api_key" />-->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_api_key" />
+        <meta-data
+            android:name="com.google.android.awareness.API_KEY"
+            android:value="@string/google_api_key" />
+
+        <service
+            android:name=".services.LocationUpdatesIntentService"
+            android:exported="false" />
+
+        <receiver
+            android:name=".receivers.LocationUpdatesBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.safelet.android.LocationUpdatesBroadcastReceiver.ACTION_PROCESS_UPDATES" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+</manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="400dp"
+    android:minHeight="600dp"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/wvLoadURL"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAccept"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Accept"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+</LinearLayout>

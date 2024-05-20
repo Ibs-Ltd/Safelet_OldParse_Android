@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Safelet Parse</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
+    <string name="view">View</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="please_wait">Please wait…</string>
+
+    <!-- Login create screen -->
+    <string name="login_create_login">Log in</string>
+    <string name="login_create_create">Create account</string>
+
+    <!-- Login screen -->
+    <string name="login_title">LOG IN</string>
+    <string name="login_hint_email">Email address</string>
+    <string name="login_error_emailwrong">Email wrong</string>
+    <string name="login_hint_password">Password</string>
+    <string name="login_error_passwordwrong">Password wrong</string>
+    <string name="login_submit">Log in</string>
+    <string name="login_register">Create account</string>
+    <string name="login_forgot">Forgot password?</string>
+    <string name="login_alert_message_emailcannotbeempty">Email address required</string>
+    <string name="login_alert_message_passwordcannotbeempty">Password required</string>
+    <string name="login_alert_message_incorrectemailaddress">Incorrect email address</string>
+
+    <!-- SignUp first screen -->
+    <string name="signup_first_title">CREATE ACCOUNT</string>
+    <string name="signup_first_hint_email">Email address</string>
+    <string name="signup_first_error_emailalreadytaken">Email address is already taken</string>
+    <string name="signup_first_hint_password">Password</string>
+    <string name="signup_first_error_repeatpassword">Repeat password</string>
+    <string name="signup_first_error_wrongpassword">Wrong password</string>
+    <string name="signup_first_error_passwordweak">Password weak</string>
+    <string name="signup_first_submit_createaccount">Create account</string>
+    <string name="signup_first_login">Log in</string>
+    <string name="signup_first_alert_message_emailcannotbeempty">Valid email required</string>
+    <string name="signup_first_alert_message_passwordcannotbeempty">Valid password required</string>
+    <string name="signup_first_alert_message_incorrectemailaddress">Invalid email address</string>
+    <string name="signup_first_alert_message_passwordsdonotmatch">Passwords do not match</string>
+    <string name="signup_first_alert_message_passwordweak">Password is weak</string>
+    <string name="signup_first_alert_message_passwordgood">Password is good</string>
+    <string name="signup_first_alert_message_passwordstrong">Password is strong</string>
+    <string name="signup_first_alert_message_passwordexcelent">Password is excellent</string>
+    <string name="signup_first_alert_message_passwordtoosmall">Password is too short</string>
+    <string
+        name="signup_first_alert_message_passwordoneofthefieldsempty">One of the fields is empty</string>
+
+    <!-- SignUp second screen -->
+    <string name="signup_second_title">CREATE ACCOUNT</string>
+    <string name="signup_second_accurateinformationrequiredlabel">Please fill in your name and phone number</string>
+    <string name="signup_second_hint_name">Name</string>
+    <string name="signup_second_error_namemissing">Name missing</string>
+    <string name="signup_second_hint_telephonenumber">Phone number</string>
+    <string name="signup_second_error_phonemissing">Phone missing</string>
+    <string name="signup_second_error_prefixmissing">Prefix missing</string>
+    <string name="signup_second_uploadpicture_label">Upload profile picture</string>
+    <string name="signup_second_next">Next</string>
+    <string name="signup_second_back">Back</string>
+    <string name="signup_second_alert_message_namecannotbeempty">Name required</string>
+    <string name="signup_second_alert_message_prefixcannotbeempty">Prefix cannot be empty</string>
+    <string name="signup_second_alert_message_phonecannotbeempty">Phone number required</string>
+    <string name="signup_second_alert_message_phonenumberisshort">Phone number is too short</string>
+
+    <!-- Signup third screen -->
+    <string name="signup_third_safelet_communitytitle">SAFELET GUARDIAN NETWORK</string>
+    <string name="signup_third_safelet_communitymessage">Because you also believe that Safety is what we do for each other, we invite you to join the Safelet Guardian network. If another member needs help and you are near that location, you will receive an alert.</string>
+
+    <!-- Signup fourth screen -->
+    <string name="signup_fourth_dialog_title_success">Success!</string>
+    <string name="signup_fourth_dialog_title">Message</string>
+    <string name="signup_fourth_dialog_title_message_accountcreatedsuccess">Succes! Your account has been created</string>
+
+    <!-- Change email screen -->
+    <string name="change_email_dialog_title">Message</string>
+    <string name="change_email_dialog_message_successfullyupdated">Email address successfully updated!</string>
+    <string name="change_email_alert_message_invalidemailaddress">Invalid email address</string>
+    <string
+        name="change_email_alert_message_emailcannotbeempty">Email field cannot be empty!</string>
+    <string name="change_email_title">Change email</string>
+    <string name="change_email_button_change">Change email</string>
+
+    <!-- Change password screen -->
+    <string name="change_password_title">Change password</string>
+    <string name="change_password_hint_currentpassword">Current password</string>
+    <string name="change_password_currentpasswordnotvalid">Current password not valid</string>
+    <string name="change_password_hint_newpassword">New password</string>
+    <string name="change_password_hint_repeatnewpassword">Repeat new password</string>
+    <string name="change_password_wrongpassword">Wrong password</string>
+    <string name="change_password_button">Change password</string>
+    <string name="change_password_forgot">Forgot password</string>
+    <string name="change_password_dialog_title">Message</string>
+    <string name="change_password_dialog_message_successfullyupdated">Password has been changed successfully</string>
+    <string
+        name="change_password_alert_message_passwordcannotbeempty">Password cannot be empty</string>
+    <string name="change_password_alert_message_passworddontmatch">Passwords do not match</string>
+    <string name="change_password_alert_message_passwordsame">New password is the same as current password</string>
+
+    <!-- Change phone number screen -->
+    <string name="change_phone_title">Change Phone number</string>
+    <string name="change_phone_prefix">+</string>
+    <string name="change_phone_hint_telephone">Phone number</string>
+    <string name="change_phone_error_phonemissing">Phone number missing</string>
+    <string name="change_phone_error_prefixmissing">Prefix missing</string>
+    <string name="change_phone_prefix_title">Prefix</string>
+    <string name="change_phone_submitbutton">Change phone number</string>
+    <string
+        name="change_phone_number_alert_phonecannotbeempty">Phone number cannot be empty</string>
+    <string name="change_phone_number_alert_prefixcannotbeempty">Prefix cannot be empty</string>
+    <string name="change_phone_dialog_title">Message</string>
+    <string name="change_phone_dialog_message_successfullyupdated">Phone number successfully updated!</string>
+
+    <!-- Crop screen -->
+    <string name="crop_screen_cancel">Cancel</string>
+    <string name="crop_screen_done">Done</string>
+
+    <!-- Forgot password screen -->
+    <string name="forgot_password_title">Forgot password</string>
+    <string name="forgot_password_button_resetpassword">Reset password</string>
+    <string name="forgot_password_hint_email">Email</string>
+    <string name="forgot_password_alert_warning">Warning</string>
+    <string name="forgot_password_forgotpassword">FORGOT PASSWORD</string>
+    <string name="forgot_password_login">Log in</string>
+    <string name="forgot_password_register">Register</string>
+    <string name="forgot_password_dialog_title">Message</string>
+    <string name="forgot_password_dialog_message_successfullyupdated">A password reset email has been sent to your email address</string>
+    <string name="forgot_password_alert_emailcannotbeempty">Email cannot be empty</string>
+    <string name="forgot_password_alert_usernotanemail">User not an email</string>
+
+    <!-- Invite guardians screen -->
+    <string name="invite_guardians_dialog_message_interneterror">Unable to retrieve contacts. Please check your Internet connection</string>
+    <string name="invite_guardians_dialog_message_activeinternetconnectionrequirederror">You need an active Internet connection to retrieve your contacts. Do you want to turn on your Internet connection?</string>
+    <string name="invite_guardians_text">Hello, do you want to help me in case of an emergency? Download the Safelet App and when I need your help, I can send you an alarm with my location.\niOS: http://bit.ly/Safelet-iOS\nAndroid: http://bit.ly/Safelet-Android</string>
+    <string
+        name="invite_guardians_unabletosendinvitationdueto">Unable to send invitation due to</string>
+    <string name="invite_non_user_successfully">Successfully invited user to be your guardian and join to Safelet.</string>
+    <string name="invite_non_user_failed">Failed to invite user to join to Safelet.</string>
+    <string name="invite_guardians_title_success">Success</string>
+    <string name="invite_guardians_title_failed">Failed</string>
+
+    <!-- Invite actions -->
+    <string name="invite_action_requestasguardian">Request as Guardian</string>
+    <string name="invite_action_cancelrequest">Cancel invitation</string>
+
+    <!-- Home Screen -->
+    <string name="home_drawer_title">Safelet</string>
+    <string name="home_dialog_logout_title">Warning</string>
+    <string
+        name="home_dialog_logout_message">Are you sure you want to log out of the application?</string>
+    <string name="home_dialog_title">Message</string>
+    <string name="home_dialog_message_networkerror">No internet connection.</string>
+    <string name="home_feedback_title">Support</string>
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="home_logout_title">Log Out</string>
+
+    <!-- Alert pop view -->
+    <string name="alert_pop_ineedhelp">You\'ve requested help!</string>
+    <string name="alert_pop_needshelp_1">%s needs your help</string>
+    <string name="alert_pop_peopleneedshelp">%s people need your help</string>
+    <string name="alert_pop_recording_stop">Recording has stopped because the maximum recording size was reached</string>
+
+    <!-- Connections Screen -->
+    <string name="connections_title">SAFETY NETWORK</string>
+    <string name="connections_myguardians_label">My Guardians</string>
+    <string name="connections_imguarding_label">I\'m guarding</string>
+    <string
+        name="connections_you_have_no_guardians_label">YOU HAVE &lt;br /&gt;NO GUARDIANS</string>
+    <string name="connections_you_can_start_adding_label">Invite Guardians</string>
+    <string name="connections_seelastcheckin_title">See last check-in</string>
+    <string name="connections_cancel_label">Cancel</string>
+    <string name="connections_actionsforuser_label">Actions for user&#160;</string>
+    <string name="connections_removeguardian_label">Remove Guardian</string>
+    <string name="connections_stopguarding_label">Stop guarding</string>
+
+    <!-- Events / Notifications screen -->
+    <string name="events_title">Events</string>
+    <string name="events_noevents_label">No new events</string>
+    <string name="events_screen_dialog_error_unabletoretrieve_message">Unable to retrieve notifications</string>
+    <string name="events_screen_dialog_error_youneedanactiveinternetconnection_message">You need an active Internet connection to retrieve your notifications. Do you want to turn on your Internet connection?</string>
+    <string name="history_events">History events: %s</string>
+    <string name="tap_to_change">Tap to change</string>
+    <string name="on_text">ON</string>
+    <string name="off_text">OFF</string>
+
+    <!-- My profile screen -->
+    <string name="myprofile_title">Profile</string>
+    <string name="myprofile_changephoto"><u>Change Photo</u></string>
+    <string name="myprofile_name_label">Name</string>
+    <string name="myprofile_email_label">Email</string>
+    <string name="myprofile_phone_label">Phone</string>
+    <string name="myprofile_password_label">Password</string>
+
+    <!-- Safelet Community Screen -->
+    <string name="community_screen_dialog_title">Message</string>
+    <string name="community_screen_title">Safelet Guardian Network</string>
+    <string name="community_title">Guardian Network</string>
+    <string name="community_screen_title_joined">WELCOME TO THE SAFELET GUARDIAN NETWORK</string>
+    <string name="community_screen_message_joined">If you no longer want to be part of the Safelet Guardian Network, please tap the button below.</string>
+    <string name="community_screen_joinbutton">Join</string>
+    <string name="community_screen_button_leave">Leave the Safelet Guardian Network</string>
+    <string name="community_screen_dialog_networkerror_message">No internet connection.</string>
+    <string name="community_screen_join_title">SAFELET GUARDIAN NETWORK</string>
+
+    <!-- Alert Screen -->
+    <string name="your_string">You</string>
+    <string name="alert_screen_title">Alert</string>
+    <string name="alarm_title">ALARM</string>
+    <string name="play_audio">Play Audio</string>
+    <string name="stop_audio">Stop Audio</string>
+    <string name="alert_screen_button_onmyway">I\'m on my way</string>
+    <string name="call_emergency">Call %d</string>
+    <string name="recording_text">Recording…</string>
+    <string name="alert_disable_alertlabel">Disable alarm</string>
+    <string name="alert_screen_dialog_title">Message</string>
+    <string name="alert_screen_unknownaddress_label">Unknown address</string>
+    <string name="alert_screen_dialog_message_error_network">No internet connection.</string>
+    <string name="alert_screen_alarm_stopped_message">The dispatcher has stopped the alarm</string>
+    <string name="participants_notified_message">Notified participants that emergency call was performed</string>
+    <string name="dialog_title_success">Success</string>
+
+    <!-- Change name screen -->
+    <string name="change_name_title">Edit My Name</string>
+    <string name="change_name_error_namecannotbeempty">Name cannot be empty!</string>
+    <string name="change_name_submit_button">Change name</string>
+    <string name="change_name_dialog_title">Message</string>
+    <string
+        name="change_name_dialog_message_successfullyupdated">Name successfully updated!</string>
+    <string name="change_name_alert_namecannotbeempty">Name field cannot be empty!</string>
+
+    <!-- CheckIn Screen -->
+    <string name="checkin_title">Check in</string>
+    <string name="checkin_hint_descriptionhere">Description here</string>
+    <string name="checkin_dialog_title_success">Success</string>
+    <string name="checkin_dialog_message_success">You are checked in. Your Guardians have been informed</string>
+    <string name="checkin_dialog_title_error_network">Error</string>
+    <string name="checkin_you_label">You</string>
+    <string name="checkin_noaddressfound_label">No address found</string>
+    <string name="checkin_dialog_error_inserttextmessage">Insert text message.</string>
+    <string name="checkin_dialog_error_unk">Unknown error.</string>
+
+    <!-- Last CheckIn screen -->
+    <string name="last_checkin_chekedinlabel">Checked in %s</string>
+    <string name="last_checkin_chekedinjustnow">just now</string>
+    <string name="last_checkin_noaddressfound">No address found</string>
+    <string name="last_checkin_alert_screen_title">Alert</string>
+    <string name="last_checkin_no_checkin_msg">This user never performed a check-in</string>
+
+    <!-- Invite guardians screen -->
+    <string name="invite_guardians_title">Invite Guardians</string>
+    <string name="invite_guardians_noresults">No results found</string>
+    <string name="invite_guardians_loading">Loading contacts&#8230;</string>
+
+    <!-- Contacts statuses -->
+    <string name="contact_status_contact_invited">Invited via SMS</string>
+    <string name="contact_status_guardian_invited">Guardian invitation sent</string>
+    <string name="contact_status_your_guardian">Your Guardian</string>
+    <string name="contact_status_not_member">Not a member</string>
+    <string name="contact_status_member">Safelet member</string>
+
+    <!-- Notifications screen -->
+    <string name="notification_xneedsyourhelp">%s needs your help!</string>
+    <string name="notification_xhasdispatcheddalert">%s dispatched an alarm</string>
+    <string
+        name="notification_xhasrequestedyouasguardian">%s has requested you to be his guardian</string>
+    <string name="notification_xhascheckedin">%s has checked in&#160;</string>
+    <string name="notification_justnow">just now</string>
+    <string name="notification_location">Location: %s</string>
+    <string name="notification_cell_top_needshelp">Needs your help!</string>
+    <string name="notification_cell_top_seedetails">See details</string>
+    <string name="notification_cell_top_ignore">Ignore</string>
+    <string name="notification_cell_accept">Accept</string>
+    <string name="notification_cell_decline">Decline</string>
+    <string name="notification_cell_play_disabled">No recording available at the moment. Please try again later</string>
+    <string name="notification_cell_play">Play recording</string>
+    <string name="notification_cell_stop">Stop playing recording</string>
+    <string name="notification_cell_canceled">Cancelled</string>
+    <string name="notification_cell_accepted">You accepted the invitation</string>
+    <string name="notification_cell_rejected">You rejected the invitation</string>
+
+    <!-- Network error popup -->
+    <string name="popup_networkerror">No network signal</string>
+
+    <!-- Utils -->
+    <string name="utils_gps_enabling_title">Message</string>
+    <string name="utils_gps_enabling_yes">Yes</string>
+    <string name="utils_gps_enabling_no">No</string>
+    <string name="utils_gps_enabling_message">
+        Your GPS seems to be disabled. Do you want to enable it?</string>
+
+    <!-- General -->
+    <string name="general_nointernetconnection">No internet connection.</string>
+
+    <!-- Calendar -->
+    <string name="calendar_aminuteago">a minute ago</string>
+    <string name="calendar_minutesago">&#160;minutes ago</string>
+    <string name="calendar_ahourago">an hour ago</string>
+    <string name="calendar_hoursago">&#160;hours ago</string>
+    <string name="calendar_yesterday">yesterday</string>
+    <string name="calendar_daysago">&#160;days ago</string>
+
+    <!-- Pair with safelet Wizard -->
+    <string name="safelet_connect_title">CONNECT SOS-BRACELET</string>
+    <string name="safelet_disconnect_title">DISCONNECT SOS-BRACELET</string>
+    <string name="safelet_disconnecting_title">DISCONNECTING SOS-BRACELET</string>
+    <string name="safelet_disconnect_alert_connected_text">Are you sure you want to disconnect your Safelet?</string>
+    <string name="safelet_disconnect_alert_disconnected_text">Your Safelet is not currently connected. Are you sure you want to remove the relation with your Safelet from you phone only?</string>
+    <string name="safelet_pair_wizard_welcome_message">Welcome. This wizard will pair your Safelet to your phone.</string>
+    <string name="safelet_pair_wizard_no_bluetooth">Please enable Bluetooth to continue.</string>
+    <string name="safelet_pair_wizard_searching_and_bonding">Please press the button on the SOS-bracelet</string>
+    <string name="safelet_pair_wizard_connect_failed">Failed to connect to the Safelet bracelet. Perform one of the actions below then attempt to re-connect by selecting \"Connect Safelet\" from the menu:</string>
+    <string
+        name="safelet_pair_wizard_failed_info">Hold for 10 seconds, until the red light appears</string>
+    <string name="safelet_pair_wizard_first_info">・ Reset the Android device</string>
+    <string name="safelet_pair_wizard_second_info">・ Hard reset your Safelet bracelet</string>
+    <string name="safelet_pair_wizard_paired">Your Safelet and phone are now connected. You can check the status of your connection in the Android notification area.</string>
+    <string name="safelet_pair_wizard_status_text_scanning">Status: Scanning…</string>
+    <string name="safelet_pair_wizard_making_relation">The Safelet was found. Your mobile phone is now creating a relation with the Safelet.  Wait until the application finishes configuring the bracelet.  If the relation takes longer then one minute press the button on the bracelet again.</string>
+    <string name="safelet_pair_wizard_action_turnon_bluetooth">Please enable bluetooth on your phone.</string>
+
+    <!-- Options menu -->
+    <string name="options_app_version">Application version</string>
+    <string name="options_title">SETTINGS</string>
+    <string name="options_category_safelet">Safelet</string>
+    <string name="options_device_info_title">Safelet Information</string>
+    <string name="options_device_info_description">Show all Safelet device information</string>
+    <string name="options_firmware_update_title">Safelet Firmware Update</string>
+    <string name="options_firmware_updating_title">Safelet Firmware Updating...</string>
+    <string name="options_firmware_update_desc">Check for new Safelet Firmware updates</string>
+    <string name="options_firmware_update_no_safelet_used">You are currently not using a Safelet with the app.</string>
+    <string name="options_firmware_update_no_safelet_connection">You are no longer connected with Safelet. A connection with the Safelet is needed to update its firmware.</string>
+    <string
+        name="options_firmware_update_status_checking">Checking for new firmware updates…</string>
+    <string name="options_firmware_update_no_update_found">No new firmware update found.</string>
+    <string
+        name="options_firmware_update_process_in_background">New firmware update in progress.</string>
+    <string name="options_firmware_update_are_you_sure">Are you sure you want to search for new updates and update Safelet?</string>
+
+    <string name="device_info_title">Device information</string>
+    <string name="device_info_category_manufacturer">Manufacturer Name</string>
+    <string name="device_info_category_model_number">Model Number</string>
+    <string name="device_info_category_firmware_revision">Firmware revision</string>
+    <string name="device_info_category_hardware_revision">Hardware revision</string>
+
+    <!-- Safelet Notification States -->
+    <string name="safelet_notification_state_no_guardian_no_safelet_title">Safelet</string>
+    <string name="safelet_notification_state_guardian_only_title">Guardian</string>
+    <string name="safelet_notification_state_safelet_disconnected_title">No Connection</string>
+    <string name="safelet_notification_state_safelet_connected_title">Protected by %s</string>
+    <string name="safelet_notification_state_safelet_connected_title_multiple">Protected by %s people</string>
+    <string name="safelet_notification_state_no_guardian_no_safelet_description">Connect Safelet or become a Guardian</string>
+    <string name="safelet_notification_state_guardian_only_description">Guarding %s</string>
+    <string name="safelet_notification_state_guardian_only_description_multiple_persons">Guarding %s persons</string>
+    <string name="safelet_notification_state_safelet_disconnected_description_no_internet">No internet connection</string>
+    <string name="safelet_notification_state_safelet_disconnected_description_no_safelet">Lost connection to safelet</string>
+    <string name="safelet_notification_state_safelet_disconnected_description_no_bluetooth">Bluetooth is disabled</string>
+    <string name="safelet_notification_state_guardian_unknown">a Guardian</string>
+    <string name="safelet_notification_state_guarded_unknown">Active Guardian</string>
+    <string name="safelet_notification_state_no_guardians">You have no Guardians!</string>
+    <string name="safelet_notification_state_safelet_connected_no_internet">Unprotected: No internet connection</string>
+    <string name="safelet_notification_state_firmware_update_title">Updating firmware</string>
+    <string name="safelet_notification_state_firmware_update_desc">%s</string>
+    <string
+        name="safelet_notification_state_firmware_update_done_title">Firmware Update Completed</string>
+    <string
+        name="safelet_notification_state_firmware_update_done_desc">Safelet will now reboot</string>
+    <string
+        name="safelet_notification_state_no_location_enabled">Unprotected: No location enabled</string>
+    <string name="safelet_notification_state_battery_level">Safelet battery level is %d%%. Please charge up your Safelet</string>
+    <string name="safelet_notification_state_connecting">Connecting to device…</string>
+    <string name="safelet_notification_state_searching">Searching for device…</string>
+    <string name="safelet_notification_state_disconnecting">Disconnecting from device…</string>
+    <string name="safelet_notification_state_no_location_safelet_community_title">Not Guarding Community.</string>
+    <string name="safelet_notification_state_no_location_safelet_community_desc">Need location service for Community.</string>
+
+    <!-- Emailed to Nick for rewriting on 31 july -->
+    <string name="invalid_session_title">Invalid Session</string>
+    <string name="invalid_session_message">Session is no longer valid. Please log in again.</string>
+
+    <!-- Notification strings -->
+    <string name="dispatch_alarm_message">%s needs your help!</string>
+    <string name="stop_alarm_message">%s has cancelled the alarm</string>
+    <string name="stop_alarm_reason_message">%1$s has cancelled the alarm. Reason: %2$s</string>
+    <string name="join_alarm_message">%s is on the way</string>
+    <string name="call_emergency_message">%s just called the emergency authorities!</string>
+    <string name="check_in_short_message">%s just checked in</string>
+    <string name="check_in_long_message">%1$s just checked in: %2$s</string>
+    <string name="send_invitation_message">%s has invited you to become a Guardian</string>
+    <string name="accept_invitation_message">%s has accepted your invitation</string>
+    <string name="reject_invitation_message">%s has rejected your invitation</string>
+    <string
+        name="cancel_invitation_message">%s has cancelled the guardian invitation he sent you</string>
+    <string
+        name="remove_connection_guardian_message">%s has removed you from being his guardian</string>
+    <string name="remove_connection_guarded_message">%s has stopped guarding you</string>
+
+    <!-- Error strings -->
+    <string name="error_general">Some error occurred. Please try again.</string>
+    <string name="error_existing_alarm">There already exists an active alarm for user %s. Only one active alarm per user is allowed.</string>
+    <string name="error_dispatch_alarm">Encountered an error while dispatching the alarm. Please try again.</string>
+    <string name="error_server">Server error. Please try again. %s.</string>
+    <string
+        name="error_stop_alarm">There was an error while stopping the alarm. Please try again.</string>
+    <string
+        name="error_ignore_alarm">Failed to ignore alarm. Reason: \'%s\'. Please try again.</string>
+    <string name="error_get_active_alarm">An error occurred while searching the active alarm dispatched by the user.</string>
+    <string name="error_get_alarm_participants">There was an error while retrieving the list of participants for the alarm.</string>
+    <string name="error_called_emergency">There was an error while notifying the participants about the emergency call.</string>
+    <string name="error_refresh_alarm">There was an error while refreshing the alarm.</string>
+    <string
+        name="error_get_all_chunks">An error occurred while retrieving the alarm\'s recording.</string>
+    <string name="error_get_last_chunk">An error occurred while retrieving the alarm\'s last recording chunk.</string>
+    <string name="error_save_recording">Error saving the recording chunk. Failed to associate the chunk to the alarm.</string>
+    <string name="error_max_recording">Recording has stopped because the maximum recording size was reached.</string>
+    <string name="error_last_checkin">An error occurred while retrieving the most recent check-in. Please try again.</string>
+    <string name="error_last_checkin_2">An error occurred while retrieving the most recent check-in. Please try again.</string>
+    <string name="error_last_checkin_3">An error occurred while retrieving check-in. Please try again.</string>
+    <string name="error_send_checkin">Encountered an error while sending the check-in. Please try again.</string>
+    <string name="error_get_events">There was an error while retrieving the list of events. Please try again.</string>
+    <string name="error_get_firmware">Failed to get latest firmware update because: \'%s\'. Please try again.</string>
+    <string name="error_get_app_version">Failed to get latest app version because: \'%s\'. Please try again.</string>
+    <string name="error_get_users">An error occurred while matching the list of contacts with Safelet users. Please try again.</string>
+    <string
+        name="error_invitation">Encountered an error while sending invitation. Please try again.</string>
+    <string name="error_invitation_exist">There already exists a relation with status \'%s\' between these users.</string>
+    <string
+        name="error_invitation_status">Provided invitation response status \'%s\' is not valid.</string>
+    <string name="error_bad_invitation_status">You can\'t respond to an invitation having the status \'%s\'. You can only respond to \'pending\' invitations.</string>
+    <string name="error_response_invitation">Encountered an error while responding to the invitation. Please try again.</string>
+    <string name="error_cancel_invitation_invalid_status">You can\'t cancel an invitation having the status \'%s\'. You can only cancel \'pending\' invitations.</string>
+    <string name="error_cancel_invitation">Encountered an error while cancelling the invitation. Please try again.</string>
+    <string name="error_cancel_invitation_inexistent">Encountered an error while cancelling the invitation. The invitation doesn\'t exist. Please refresh.</string>
+    <string name="error_remove_invitation_invalid_status">You can\'t remove an invitation having the status \'%s\'. You can only remove \'accepted\' invitations.</string>
+    <string name="error_remove_invitation">Encountered an error while removing the connection. Please try again.</string>
+    <string name="error_remove_invitation_inexistent">Encountered an error while removing the connection. The connection doesn\'t exist. Please refresh.</string>
+    <string name="error_get_guardians">An error occurred while retrieving the guardians. Please try again.</string>
+    <string name="error_get_guarded">An error occurred while retrieving the guarded users. Please try again.</string>
+    <string name="error_check_user">Encountered an error while searching for existing users with username \'%s\'. Please try again.</string>
+    <string name="error_phone_details">Failed to store phone info. Reason: %s.</string>
+    <string
+        name="error_bt_notification">Failed to mark bluetooth connection failed. Reason: %s.</string>
+    <string name="error_save_user_empty_email">Email can\'t be empty.</string>
+    <string name="error_save_user_empty_username">Username can\'t be empty.</string>
+    <string name="error_save_user_empty_name">Name can\'t be empty.</string>
+    <string name="error_save_user_invalid_name">Invalid name. It should contain only letters and spaces and should be at least 3 characters long.</string>
+    <string name="error_user_exist">Email already in use.</string>
+    <string name="error_user_not_exist">Email not in use.</string>
+    <string name="error_remove_guardian">Remove guardian request failed. Please try again.</string>
+    <string
+        name="error_remove_guarded">Remove guarded user request failed. Please try again.</string>
+    <string name="error_wrong_pass">Incorrect current password. Please try again.</string>
+    <string name="error_wrong_credentials">Invalid email or password. Please try again.</string>
+    <string name="error_forgot_password">Failed to reset password. Please try again.</string>
+    <string name="error_join_alarm">Unable to join to the alarm. Please try again.</string>
+    <string name="loading_alarm_failed">Alarm cannot be loaded. Please try again.</string>
+
+    <string name="reload">Reload</string>
+
+    <string name="disable_reason">Disable reason: %s</string>
+    <string name="disable_reason_test">this was a test alarm</string>
+    <string name="disable_reason_accidental">this was an accidental alarm</string>
+    <string name="disable_reason_not_needed">help is no longer needed</string>
+
+    <string name="select_reason">Please select a reason</string>
+
+    <string name="reason_test_alarm">Please do not worry, this was just a test alarm</string>
+    <string
+        name="reason_accidental_alarm">Please do not worry, I accidentally activated the alarm</string>
+    <string
+        name="reason_help_not_needed">Thanks for being alert. I do not longer need your help</string>
+    <string name="reason_other">Other</string>
+
+    <string name="feedback_subject" translatable="false">Safelet Android feedback</string>
+    <string name="feedback_body" translatable="false">%1$s\n%2$s - %3$d\n%4$s\n%5$s\n\n</string>
+    <string name="feedback_safelet_version" translatable="false">Safelet v%s</string>
+    <string name="feedback_firmware_version" translatable="false">Firmware %s</string>
+    <string name="feedback_safelet_not_connected" translatable="false">No Safelet connected</string>
+
+    <string name="alarm_sent">Alarm sent to guardians</string>
+    <string name="guardian_on_his_way">%s is on his way</string>
+
+    <string name="privacy"><u>Privacy Policy</u></string>
+    <string name="privacy_url" translatable="false">http://safelet.com/us/privacy-policy/</string>
+    <string name="privacy_url1" translatable="false">http://saflet-privacy.s3-website.us-east-2.amazonaws.com/</string>
+    <string name="privacy_policy_url" translatable="false">https://d11j0nlr3gbblw.cloudfront.net/</string>
+    <string name="acquiring_location">Acquiring location…</string>
+
+    <string name="notification_channel_status">Status</string>
+    <string name="notification_channel_battery">Battery</string>
+    <string name="notification_channel_update">Update</string>
+
+    <!-- Right Side Menu String -->
+    <string name="txt_menu_getting_started">GETTING STARTED</string>
+    <string name="txt_menu_safelet_status_area">SOS-BRACELET STATUS</string>
+    <string name="txt_menu_home">HOME</string>
+    <string
+        name="msg_delete_my_account_text">Problem in deleting account, Please try again later!</string>
+
+    <string name="btnCapture">capture</string>
+    <string name="need_camera_permissions">This app needs the WRITE_EXTERNAL_STORAGE, RECORD_AUDIO and CAMERA permissions to capture video from the camera.</string>
+
+    <string name="str_start_follow_me_message">%s needs your help : I would feel safer if you would follow me to my destination. Click on this message to start following me.</string>
+    <string name="str_stop_follow_me_message">%s has arrive at the destination safely. Thank you for being a friend.</string>
+
+    <!-- Follow Me String -->
+    <string name="unknown_location">Unknown location</string>
+    <string name="str_stop_follow_user_message">%s has stopped following you!</string>
+
+    <!-- Privacy policy accept -->
+    <string name="str_policy_notification_msg">%s policy notification</string>
+
+
+</resources>
